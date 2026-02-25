@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - DSSC 2014 Batch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            gold: '#D4AF37',
+                            'gold-light': '#F3E5AB',
+                            'gold-dark': '#B8860B',
+                            black: '#121212',
+                            'black-light': '#1e1e1e',
+                            white: '#FFFFFF',
+                            'white-off': '#f8f9fa',
+                            gray: '#6b7280',
+                            'gray-light': '#e5e7eb',
+                            'gray-dark': '#374151'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .bg-glass {
+                @apply bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-200;
+            }
+        }
+        body {
+            background-color: #f8f9fa;
+            color: #121212;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #D4AF37; 
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body
+    class="flex flex-col min-h-screen selection:bg-brand-gold selection:text-brand-black overflow-x-hidden pt-28 pb-20">
+    <!-- Navbar (Light) -->
+    <header class="fixed top-0 w-full z-50 bg-glass text-brand-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center gap-4 group cursor-pointer"
+                    onclick="window.location.href='index.html'">
+                    <img class="h-12 w-12 rounded-full border-2 border-brand-gold" src="images/logo.jpg"
+                        alt="DSSC 2014 Logo">
+                    <span class="font-bold text-xl tracking-wider text-brand-black">DSSC <span
+                            class="text-brand-gold drop-shadow-sm">2014</span></span>
+                </div>
+                <nav class="hidden lg:flex space-x-8 items-center">
+                    <a href="index.html"
+                        class="text-brand-gray-dark hover:text-brand-gold-dark transition-colors font-medium text-sm uppercase tracking-widest">Home</a>
+                    <a href="members.html"
+                        class="bg-brand-gold text-brand-black font-bold px-6 py-2.5 rounded-lg shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:shadow-[0_0_20px_rgba(212,175,55,0.6)] hover:bg-brand-gold-light transition-all flex items-center justify-center gap-2 text-sm uppercase tracking-widest">
+                        <i class="fas fa-users"></i> Join Database
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 flex-grow w-full">
+        <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-12 shadow-[0_15px_40px_-15px_rgba(0,0,0,0.1)]">
+            <div class="flex items-center gap-4 mb-8 border-b border-gray-200 pb-6">
+                <i class="fas fa-shield-alt text-4xl text-brand-gold-dark"></i>
+                <h1 class="text-4xl font-extrabold text-brand-black uppercase tracking-wider">Privacy <span
+                        class="text-brand-gold-dark">Policy</span></h1>
+            </div>
+
+            <div class="prose max-w-none text-brand-gray-dark space-y-8 leading-relaxed">
+                <p class="text-lg text-brand-black font-medium">The DSSC 2014 Batch website respects your privacy.
+                    Please read below to understand how we handle the information you provide us.</p>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-brand-gold-dark mt-6 mb-4 flex items-center gap-2">
+                        <i class="fas fa-database text-lg"></i> Information Collection
+                    </h2>
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-inner">
+                        <p>We do not collect any personal information without your explicit consent. Any data provided
+                            through our contact forms or mailing list is kept strictly confidential. The primary use of
+                            this data is solely for the purpose of communicating batch-related news, events, reunions,
+                            and professional networking within our batch.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-brand-gold-dark mt-6 mb-4 flex items-center gap-2">
+                        <i class="fas fa-link text-lg"></i> Third-Party Links
+                    </h2>
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-inner">
+                        <p>Our website contains links to external, third-party sites such as Facebook and Instagram. We
+                            are not responsible for the privacy practices, tracking methods, or the content of such
+                            external websites. Please review their specific privacy policies before engaging.</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-brand-gold-dark mt-6 mb-4 flex items-center gap-2">
+                        <i class="fas fa-sync-alt text-lg"></i> Updates to Policy
+                    </h2>
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-inner">
+                        <p>This policy may be updated periodically to reflect changes in how we handle data. The latest
+                            update date is reflected below. If significant changes occur, we will notify registered
+                            members via our official mailing list.</p>
+                        <div
+                            class="mt-4 inline-flex items-center gap-2 text-sm font-bold bg-white border border-gray-200 text-brand-gold-dark px-4 py-2 rounded-full shadow-sm">
+                            <i class="fas fa-clock text-brand-gold"></i> Last updated: <span id="currentDate"></span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="mt-12 text-center text-sm pt-8 border-t border-gray-200">
+                <a href="index.html"
+                    class="inline-flex items-center gap-2 text-brand-gold-dark hover:text-brand-gold transition-colors font-bold text-base">
+                    <i class="fas fa-arrow-left"></i> Return to Home
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dark Footer -->
+    <footer
+        class="bg-brand-black w-full border-t-4 border-brand-gold text-white pt-10 pb-6 mt-16 pb-0 absolute left-0 bottom-0 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-gray-400">
+            <p>&copy; 2026 DSSC 2014 Batch. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const date = new Date();
+        const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        document.getElementById('currentDate').textContent = monthNames[date.getMonth()] + " " + date.getFullYear();
+    </script>
+</body>
+
+</html>
